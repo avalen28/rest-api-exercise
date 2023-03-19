@@ -4,12 +4,18 @@ const createError = require("http-errors");
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
+const cors = require("cors");
 
 // Routers require
 const indexRouter = require("./routes/index");
 const showRouter = require("./routes/shows");
 
 const app = express();
+app.use(
+  cors({
+    origin: process.env.ORIGIN,
+  })
+);
 
 // cookies and loggers
 app.use(logger("dev"));
