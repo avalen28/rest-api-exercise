@@ -19,7 +19,7 @@ const shows = [
     launched: 2014,
     genre: "dark comedy",
     image:
-      "https://pics.filmaffinity.com/BoJack_Horseman_Serie_de_TV-687229611-large.jpg",
+      "https://ocioworld.files.wordpress.com/2018/12/bojack-horseman.jpg?w=736",
     description:
       "Meet the most beloved sitcom horse of the 90s - 20 years later. BoJack Horseman was the star of the hit TV show Horsin' Around, but today he's washed up, living in Hollywood, complaining about everything, and wearing colorful sweaters.",
   },
